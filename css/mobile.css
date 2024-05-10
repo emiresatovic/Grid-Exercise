@@ -19,15 +19,13 @@
     grid-template-columns: repeat(2,1);
 }
 
-#articles .articles-cobtainer>*:first-child {
+#articles .articles-cobtainer>*:first-child,
+#articles .articles-container>*:last-child
+{
     grid-template-columns: 1fr;
     grid-column: 1;
 }
 
-#articles .articles-container>*:last-child {
-    grid-template-columns: 1fr;
-    grid-column: 1;
-}
 
 @media (max-width:600px) {
     #hero .hero-container, #articles .articles-container, #main-footer .footer-container {

@@ -271,21 +271,21 @@ h1,h2,h3,h4,h5,h6 {
 
 #articles .articles-container {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
 }
 
-#articles .articles-container>*:first-child {
+#articles .articles-container> *:first-child {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 1rem;
     align-items: center;
-    grid-column: 1 /span 2;
+    grid-column: 2 /span 2;
 }
 
-#articles .articles-container>*:last-child {
+#articles .articles-container> *:last-child {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
     align-items: center;
     grid-column: 2 /span 2;
